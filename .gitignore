@@ -1,0 +1,27 @@
+# Local datasets
+/data/
+
+# Python environments and caches
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+
+# Experiment artifacts
+wandb/
+logs/
+checkpoints/
+*.pt
+*.pth
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
